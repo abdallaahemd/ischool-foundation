@@ -1,0 +1,44 @@
+{
+  "id": "module-2",
+  "grade": 7,
+  "title": "HTML & CSS — Module 2",
+  "description": "Practice css colors and more.",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": "g7m2q1",
+      "type": "mcq",
+      "prompt": "What does HTML stand for?",
+      "options": [
+        "High Tech ML",
+        "HyperText Markup Language",
+        "Home Tool ML",
+        "Hyper Toy ML"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g7m2q2",
+      "type": "true-false",
+      "prompt": "A browser reads HTML to render the page.",
+      "correct": true
+    },
+    {
+      "id": "g7m2q3",
+      "type": "ordering",
+      "prompt": "Order an HTML document.",
+      "items": [
+        "</html>",
+        "<head>",
+        "<html>",
+        "<body>"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        3,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 10,
+  "title": "Data & Algorithms — Module 1",
+  "description": "Practice sorting and more.",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": "g10m1q1",
+      "type": "mcq",
+      "prompt": "Big-O of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n²)",
+        "O(1)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g10m1q2",
+      "type": "true-false",
+      "prompt": "Bubble sort is O(n²) in the worst case.",
+      "correct": true
+    },
+    {
+      "id": "g10m1q3",
+      "type": "mcq",
+      "prompt": "Which is NOT a primitive type in JS?",
+      "options": [
+        "string",
+        "number",
+        "array",
+        "boolean"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "g10m1q4",
+      "type": "drag-drop",
+      "prompt": "Match.",
+      "pairs": [
+        {
+          "left": "Stack",
+          "right": "LIFO"
+        },
+        {
+          "left": "Queue",
+          "right": "FIFO"
+        },
+        {
+          "left": "Array",
+          "right": "Indexed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "module-2",
+  "grade": 5,
+  "title": "Intro to Coding — Module 2",
+  "description": "Practice blocks and more.",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": "g5m2q1",
+      "type": "mcq",
+      "prompt": "How many times does this run? repeat 5 times → say hi",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "g5m2q2",
+      "type": "true-false",
+      "prompt": "If-then is a way to make decisions in code.",
+      "correct": true
+    },
+    {
+      "id": "g5m2q3",
+      "type": "ordering",
+      "prompt": "Order to make a sprite move and speak.",
+      "items": [
+        "Say hello",
+        "When green flag clicked",
+        "Move 10 steps"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}

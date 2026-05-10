@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 3,
+  "title": "Internet & Apps — Module 1",
+  "description": "Practice websites and more.",
+  "difficulty": "Easy",
+  "questions": [
+    {
+      "id": "g3m1q1",
+      "type": "mcq",
+      "prompt": "Which is a web browser?",
+      "options": [
+        "Word",
+        "Chrome",
+        "Excel",
+        "Paint"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g3m1q2",
+      "type": "true-false",
+      "prompt": "It is safe to share your password with strangers.",
+      "correct": false
+    },
+    {
+      "id": "g3m1q3",
+      "type": "mcq",
+      "prompt": "What does a URL point to?",
+      "options": [
+        "A website",
+        "A printer",
+        "A folder",
+        "A song"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "g3m1q4",
+      "type": "drag-drop",
+      "prompt": "Match the term.",
+      "pairs": [
+        {
+          "left": "Email",
+          "right": "Online letter"
+        },
+        {
+          "left": "Browser",
+          "right": "Opens websites"
+        },
+        {
+          "left": "Search",
+          "right": "Find info"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 7,
+  "title": "HTML & CSS — Module 1",
+  "description": "Practice html tags and more.",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": "g7m1q1",
+      "type": "mcq",
+      "prompt": "Which tag makes a heading in HTML?",
+      "options": [
+        "<p>",
+        "<h1>",
+        "<a>",
+        "<img>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g7m1q2",
+      "type": "true-false",
+      "prompt": "CSS is used to style web pages.",
+      "correct": true
+    },
+    {
+      "id": "g7m1q3",
+      "type": "mcq",
+      "prompt": "Which CSS property changes text color?",
+      "options": [
+        "font",
+        "color",
+        "size",
+        "bg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g7m1q4",
+      "type": "drag-drop",
+      "prompt": "Match HTML to purpose.",
+      "pairs": [
+        {
+          "left": "<a>",
+          "right": "Link"
+        },
+        {
+          "left": "<img>",
+          "right": "Image"
+        },
+        {
+          "left": "<p>",
+          "right": "Paragraph"
+        }
+      ]
+    }
+  ]
+}

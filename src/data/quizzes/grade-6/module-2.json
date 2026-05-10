@@ -1,0 +1,42 @@
+{
+  "id": "module-2",
+  "grade": 6,
+  "title": "Scratch & Algorithms — Module 2",
+  "description": "Practice scratch sprites and more.",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": "g6m2q1",
+      "type": "mcq",
+      "prompt": "If x = 5, what is x + 3?",
+      "options": [
+        "5",
+        "3",
+        "8",
+        "53"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "g6m2q2",
+      "type": "true-false",
+      "prompt": "Variables can change while a program runs.",
+      "correct": true
+    },
+    {
+      "id": "g6m2q3",
+      "type": "ordering",
+      "prompt": "Order: bubble sort idea.",
+      "items": [
+        "Compare neighbors",
+        "Repeat until sorted",
+        "Swap if out of order"
+      ],
+      "correctOrder": [
+        0,
+        2,
+        1
+      ]
+    }
+  ]
+}

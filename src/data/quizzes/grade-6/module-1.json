@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 6,
+  "title": "Scratch & Algorithms — Module 1",
+  "description": "Practice algorithms and more.",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": "g6m1q1",
+      "type": "mcq",
+      "prompt": "What stores a value in code?",
+      "options": [
+        "Variable",
+        "Loop",
+        "Sprite",
+        "Stage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "g6m1q2",
+      "type": "true-false",
+      "prompt": "An if-statement only runs when its condition is true.",
+      "correct": true
+    },
+    {
+      "id": "g6m1q3",
+      "type": "mcq",
+      "prompt": "Which is an algorithm?",
+      "options": [
+        "A picture",
+        "Step-by-step recipe",
+        "A game",
+        "A song"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g6m1q4",
+      "type": "drag-drop",
+      "prompt": "Match the term.",
+      "pairs": [
+        {
+          "left": "Sprite",
+          "right": "Character"
+        },
+        {
+          "left": "Stage",
+          "right": "Background"
+        },
+        {
+          "left": "Script",
+          "right": "Code blocks"
+        }
+      ]
+    }
+  ]
+}

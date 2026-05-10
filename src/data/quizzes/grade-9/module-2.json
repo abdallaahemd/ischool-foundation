@@ -1,0 +1,44 @@
+{
+  "id": "module-2",
+  "grade": 9,
+  "title": "Web Development — Module 2",
+  "description": "Practice events and more.",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": "g9m2q1",
+      "type": "mcq",
+      "prompt": "Media queries help with:",
+      "options": [
+        "Audio",
+        "Responsive design",
+        "Storage",
+        "Encryption"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g9m2q2",
+      "type": "true-false",
+      "prompt": "A click is an example of an event.",
+      "correct": true
+    },
+    {
+      "id": "g9m2q3",
+      "type": "ordering",
+      "prompt": "Order a git workflow.",
+      "items": [
+        "push",
+        "commit",
+        "add",
+        "edit"
+      ],
+      "correctOrder": [
+        3,
+        2,
+        1,
+        0
+      ]
+    }
+  ]
+}

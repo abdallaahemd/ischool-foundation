@@ -1,0 +1,63 @@
+{
+  "id": "module-1",
+  "grade": 4,
+  "title": "Logical Thinking — Module 1",
+  "description": "Practice sequences and more.",
+  "difficulty": "Easy",
+  "questions": [
+    {
+      "id": "g4m1q1",
+      "type": "mcq",
+      "prompt": "What comes next: 2, 4, 6, ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g4m1q2",
+      "type": "true-false",
+      "prompt": "An algorithm is a list of steps to solve a problem.",
+      "correct": true
+    },
+    {
+      "id": "g4m1q3",
+      "type": "ordering",
+      "prompt": "Order making a sandwich.",
+      "items": [
+        "Eat it",
+        "Get bread",
+        "Put filling",
+        "Close it"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "g4m1q4",
+      "type": "drag-drop",
+      "prompt": "Match shapes.",
+      "pairs": [
+        {
+          "left": "Triangle",
+          "right": "3 sides"
+        },
+        {
+          "left": "Square",
+          "right": "4 sides"
+        },
+        {
+          "left": "Pentagon",
+          "right": "5 sides"
+        }
+      ]
+    }
+  ]
+}

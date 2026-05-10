@@ -1,0 +1,42 @@
+{
+  "id": "module-2",
+  "grade": 11,
+  "title": "OOP & Databases — Module 2",
+  "description": "Practice inheritance and more.",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": "g11m2q1",
+      "type": "mcq",
+      "prompt": "Inheritance allows a class to:",
+      "options": [
+        "Hide data",
+        "Reuse parent code",
+        "Run faster",
+        "Compile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g11m2q2",
+      "type": "true-false",
+      "prompt": "Normalization removes data duplication.",
+      "correct": true
+    },
+    {
+      "id": "g11m2q3",
+      "type": "ordering",
+      "prompt": "Order an SQL SELECT.",
+      "items": [
+        "WHERE id=1",
+        "SELECT *",
+        "FROM users"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}

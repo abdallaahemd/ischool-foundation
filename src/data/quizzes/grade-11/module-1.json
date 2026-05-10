@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 11,
+  "title": "OOP & Databases — Module 1",
+  "description": "Practice classes and more.",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": "g11m1q1",
+      "type": "mcq",
+      "prompt": "OOP stands for?",
+      "options": [
+        "Open Object Programming",
+        "Object-Oriented Programming",
+        "Online Op Program",
+        "Output Of Process"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g11m1q2",
+      "type": "true-false",
+      "prompt": "A class can have multiple instances.",
+      "correct": true
+    },
+    {
+      "id": "g11m1q3",
+      "type": "mcq",
+      "prompt": "Which SQL clause filters rows?",
+      "options": [
+        "WHERE",
+        "ORDER",
+        "FROM",
+        "SELECT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "g11m1q4",
+      "type": "drag-drop",
+      "prompt": "Match.",
+      "pairs": [
+        {
+          "left": "PRIMARY KEY",
+          "right": "Unique row id"
+        },
+        {
+          "left": "FOREIGN KEY",
+          "right": "Link to other table"
+        },
+        {
+          "left": "INDEX",
+          "right": "Speed up queries"
+        }
+      ]
+    }
+  ]
+}
