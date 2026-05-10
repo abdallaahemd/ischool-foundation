@@ -9,7 +9,7 @@ import { getModule } from "@/lib/quiz/loader";
 import { isCorrect } from "@/lib/quiz/grade";
 import { getSessionId, getStudent } from "@/lib/session";
 import { supabase } from "@/integrations/supabase/client";
-import type { AnswerValue, StoredAnswer } from "@/lib/quiz/types";
+import type { AnswerValue, Question, StoredAnswer } from "@/lib/quiz/types";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/quiz/$grade/$module")({
@@ -55,7 +55,7 @@ function QuizPage() {
   const submit = async () => {
     setSubmitting(true);
     try {
-      const stored: StoredAnswer[] = module.questions.map((q) => ({
+      const stored: StoredAnswer[] = module.questions.map((q: Question) => ({
         questionId: q.id,
         value: answers[q.id] ?? ({ type: q.type === "mcq" ? "mcq" : q.type === "true-false" ? "true-false" : q.type === "ordering" ? "ordering" : "drag-drop" } as AnswerValue),
         correct: isCorrect(q, answers[q.id]),

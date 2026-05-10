@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { ModuleCard } from "@/components/ModuleCard";
 import { listModules } from "@/lib/quiz/loader";
+import type { Module } from "@/lib/quiz/types";
 
 export const Route = createFileRoute("/grades/$grade")({
   head: ({ params }) => ({
@@ -13,7 +14,7 @@ export const Route = createFileRoute("/grades/$grade")({
   loader: ({ params }) => {
     const grade = Number(params.grade);
     if (!Number.isInteger(grade) || grade < 1 || grade > 12) throw notFound();
-    const modules = listModules(grade);
+    const modules: Module[] = listModules(grade);
     return { grade, modules };
   },
   component: GradeModulesPage,
