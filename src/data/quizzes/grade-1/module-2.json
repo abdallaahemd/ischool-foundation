@@ -1,0 +1,54 @@
+{
+  "id": "module-2",
+  "grade": 1,
+  "title": "Computer Basics — Module 2",
+  "description": "Practice what a mouse does and more.",
+  "difficulty": "Easy",
+  "questions": [
+    {
+      "id": "g1m2q1",
+      "type": "mcq",
+      "prompt": "What clicks on things on the screen?",
+      "options": [
+        "Mouse",
+        "Keyboard",
+        "Printer",
+        "CD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "g1m2q2",
+      "type": "true-false",
+      "prompt": "You can eat near a computer safely.",
+      "correct": false
+    },
+    {
+      "id": "g1m2q3",
+      "type": "mcq",
+      "prompt": "Which key makes a space between words?",
+      "options": [
+        "Enter",
+        "Shift",
+        "Spacebar",
+        "Tab"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "g1m2q4",
+      "type": "ordering",
+      "prompt": "Order: smallest to biggest.",
+      "items": [
+        "Tablet",
+        "Smartwatch",
+        "Desktop computer"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2
+      ]
+    }
+  ]
+}

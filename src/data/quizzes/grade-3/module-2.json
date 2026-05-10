@@ -1,0 +1,44 @@
+{
+  "id": "module-2",
+  "grade": 3,
+  "title": "Internet & Apps — Module 2",
+  "description": "Practice browsers and more.",
+  "difficulty": "Easy",
+  "questions": [
+    {
+      "id": "g3m2q1",
+      "type": "mcq",
+      "prompt": "If a popup says you won a prize, you should:",
+      "options": [
+        "Click it",
+        "Ignore it",
+        "Tell everyone",
+        "Buy it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g3m2q2",
+      "type": "true-false",
+      "prompt": ".com and .org are types of website endings.",
+      "correct": true
+    },
+    {
+      "id": "g3m2q3",
+      "type": "ordering",
+      "prompt": "Steps to send an email.",
+      "items": [
+        "Type message",
+        "Open email app",
+        "Add recipient",
+        "Click send"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0,
+        3
+      ]
+    }
+  ]
+}

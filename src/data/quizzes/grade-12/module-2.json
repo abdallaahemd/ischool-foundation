@@ -1,0 +1,44 @@
+{
+  "id": "module-2",
+  "grade": 12,
+  "title": "Advanced CS — Module 2",
+  "description": "Practice trees and more.",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": "g12m2q1",
+      "type": "mcq",
+      "prompt": "Which is best for storing passwords?",
+      "options": [
+        "Plain text",
+        "MD5",
+        "bcrypt hash",
+        "Base64"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "g12m2q2",
+      "type": "true-false",
+      "prompt": "HTTPS encrypts traffic between client and server.",
+      "correct": true
+    },
+    {
+      "id": "g12m2q3",
+      "type": "ordering",
+      "prompt": "Order a recursive call: factorial(3).",
+      "items": [
+        "factorial(2)",
+        "factorial(1)",
+        "factorial(3)",
+        "factorial(0)"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        1,
+        3
+      ]
+    }
+  ]
+}

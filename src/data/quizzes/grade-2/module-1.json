@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 2,
+  "title": "Using Computers — Module 1",
+  "description": "Practice files and folders and more.",
+  "difficulty": "Easy",
+  "questions": [
+    {
+      "id": "g2m1q1",
+      "type": "mcq",
+      "prompt": "Where do we keep files together?",
+      "options": [
+        "Folder",
+        "Mouse",
+        "Cable",
+        "Speaker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "g2m1q2",
+      "type": "true-false",
+      "prompt": "Saving a file means we can open it again later.",
+      "correct": true
+    },
+    {
+      "id": "g2m1q3",
+      "type": "mcq",
+      "prompt": "Which one is NOT a place to store files?",
+      "options": [
+        "Folder",
+        "USB",
+        "Cloud",
+        "Window"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "g2m1q4",
+      "type": "drag-drop",
+      "prompt": "Match the action.",
+      "pairs": [
+        {
+          "left": "Save",
+          "right": "Keep your work"
+        },
+        {
+          "left": "Open",
+          "right": "Look at a file"
+        },
+        {
+          "left": "Delete",
+          "right": "Remove a file"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "module-1",
+  "grade": 1,
+  "title": "Computer Basics — Module 1",
+  "description": "Practice parts of a computer and more.",
+  "difficulty": "Easy",
+  "questions": [
+    {
+      "id": "g1m1q1",
+      "type": "mcq",
+      "prompt": "Which of these is used to type letters?",
+      "options": [
+        "Mouse",
+        "Keyboard",
+        "Monitor",
+        "Speaker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g1m1q2",
+      "type": "mcq",
+      "prompt": "What do we look at to see what the computer is doing?",
+      "options": [
+        "Mouse",
+        "CPU",
+        "Monitor",
+        "Cable"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "g1m1q3",
+      "type": "true-false",
+      "prompt": "A computer needs electricity to work.",
+      "correct": true
+    },
+    {
+      "id": "g1m1q4",
+      "type": "ordering",
+      "prompt": "Order the steps to start using a computer.",
+      "items": [
+        "Open an app",
+        "Press the power button",
+        "Wait for it to load"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "g1m1q5",
+      "type": "drag-drop",
+      "prompt": "Match each part with what it does.",
+      "pairs": [
+        {
+          "left": "Mouse",
+          "right": "Click and point"
+        },
+        {
+          "left": "Keyboard",
+          "right": "Type letters"
+        },
+        {
+          "left": "Monitor",
+          "right": "Show pictures"
+        }
+      ]
+    }
+  ]
+}

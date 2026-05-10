@@ -9,38 +9,120 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as StartRouteImport } from './routes/start'
+import { Route as GradesRouteImport } from './routes/grades'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ResultAttemptIdRouteImport } from './routes/result.$attemptId'
+import { Route as GradesGradeRouteImport } from './routes/grades.$grade'
+import { Route as QuizGradeModuleRouteImport } from './routes/quiz.$grade.$module'
 
+const StartRoute = StartRouteImport.update({
+  id: '/start',
+  path: '/start',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GradesRoute = GradesRouteImport.update({
+  id: '/grades',
+  path: '/grades',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ResultAttemptIdRoute = ResultAttemptIdRouteImport.update({
+  id: '/result/$attemptId',
+  path: '/result/$attemptId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GradesGradeRoute = GradesGradeRouteImport.update({
+  id: '/$grade',
+  path: '/$grade',
+  getParentRoute: () => GradesRoute,
+} as any)
+const QuizGradeModuleRoute = QuizGradeModuleRouteImport.update({
+  id: '/quiz/$grade/$module',
+  path: '/quiz/$grade/$module',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/grades': typeof GradesRouteWithChildren
+  '/start': typeof StartRoute
+  '/grades/$grade': typeof GradesGradeRoute
+  '/result/$attemptId': typeof ResultAttemptIdRoute
+  '/quiz/$grade/$module': typeof QuizGradeModuleRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/grades': typeof GradesRouteWithChildren
+  '/start': typeof StartRoute
+  '/grades/$grade': typeof GradesGradeRoute
+  '/result/$attemptId': typeof ResultAttemptIdRoute
+  '/quiz/$grade/$module': typeof QuizGradeModuleRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/grades': typeof GradesRouteWithChildren
+  '/start': typeof StartRoute
+  '/grades/$grade': typeof GradesGradeRoute
+  '/result/$attemptId': typeof ResultAttemptIdRoute
+  '/quiz/$grade/$module': typeof QuizGradeModuleRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/grades'
+    | '/start'
+    | '/grades/$grade'
+    | '/result/$attemptId'
+    | '/quiz/$grade/$module'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/grades'
+    | '/start'
+    | '/grades/$grade'
+    | '/result/$attemptId'
+    | '/quiz/$grade/$module'
+  id:
+    | '__root__'
+    | '/'
+    | '/grades'
+    | '/start'
+    | '/grades/$grade'
+    | '/result/$attemptId'
+    | '/quiz/$grade/$module'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  GradesRoute: typeof GradesRouteWithChildren
+  StartRoute: typeof StartRoute
+  ResultAttemptIdRoute: typeof ResultAttemptIdRoute
+  QuizGradeModuleRoute: typeof QuizGradeModuleRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/start': {
+      id: '/start'
+      path: '/start'
+      fullPath: '/start'
+      preLoaderRoute: typeof StartRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/grades': {
+      id: '/grades'
+      path: '/grades'
+      fullPath: '/grades'
+      preLoaderRoute: typeof GradesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -48,22 +130,48 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/result/$attemptId': {
+      id: '/result/$attemptId'
+      path: '/result/$attemptId'
+      fullPath: '/result/$attemptId'
+      preLoaderRoute: typeof ResultAttemptIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/grades/$grade': {
+      id: '/grades/$grade'
+      path: '/$grade'
+      fullPath: '/grades/$grade'
+      preLoaderRoute: typeof GradesGradeRouteImport
+      parentRoute: typeof GradesRoute
+    }
+    '/quiz/$grade/$module': {
+      id: '/quiz/$grade/$module'
+      path: '/quiz/$grade/$module'
+      fullPath: '/quiz/$grade/$module'
+      preLoaderRoute: typeof QuizGradeModuleRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
+interface GradesRouteChildren {
+  GradesGradeRoute: typeof GradesGradeRoute
+}
+
+const GradesRouteChildren: GradesRouteChildren = {
+  GradesGradeRoute: GradesGradeRoute,
+}
+
+const GradesRouteWithChildren =
+  GradesRoute._addFileChildren(GradesRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  GradesRoute: GradesRouteWithChildren,
+  StartRoute: StartRoute,
+  ResultAttemptIdRoute: ResultAttemptIdRoute,
+  QuizGradeModuleRoute: QuizGradeModuleRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}

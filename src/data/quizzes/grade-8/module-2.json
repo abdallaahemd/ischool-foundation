@@ -1,0 +1,42 @@
+{
+  "id": "module-2",
+  "grade": 8,
+  "title": "JavaScript Basics — Module 2",
+  "description": "Practice functions and more.",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": "g8m2q1",
+      "type": "mcq",
+      "prompt": "for (let i=0; i<3; i++) runs how many times?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "∞"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g8m2q2",
+      "type": "true-false",
+      "prompt": "console.log prints to the screen visually for users.",
+      "correct": false
+    },
+    {
+      "id": "g8m2q3",
+      "type": "ordering",
+      "prompt": "Order: define then use a function.",
+      "items": [
+        "Call greet()",
+        "function greet(){}",
+        "See output"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        2
+      ]
+    }
+  ]
+}

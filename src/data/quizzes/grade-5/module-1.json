@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 5,
+  "title": "Intro to Coding — Module 1",
+  "description": "Practice what is code and more.",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": "g5m1q1",
+      "type": "mcq",
+      "prompt": "What is a loop?",
+      "options": [
+        "A line",
+        "Repeating instructions",
+        "A color",
+        "A click"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g5m1q2",
+      "type": "true-false",
+      "prompt": "Code is written in a language a computer understands.",
+      "correct": true
+    },
+    {
+      "id": "g5m1q3",
+      "type": "mcq",
+      "prompt": "An 'event' in code happens when:",
+      "options": [
+        "Nothing",
+        "Something triggers it",
+        "You sleep",
+        "You restart"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g5m1q4",
+      "type": "drag-drop",
+      "prompt": "Match the block.",
+      "pairs": [
+        {
+          "left": "Move",
+          "right": "Change position"
+        },
+        {
+          "left": "Say",
+          "right": "Show text"
+        },
+        {
+          "left": "Wait",
+          "right": "Pause"
+        }
+      ]
+    }
+  ]
+}

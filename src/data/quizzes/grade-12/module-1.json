@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 12,
+  "title": "Advanced CS — Module 1",
+  "description": "Practice recursion and more.",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": "g12m1q1",
+      "type": "mcq",
+      "prompt": "Recursion is when a function:",
+      "options": [
+        "Calls itself",
+        "Loops",
+        "Returns null",
+        "Crashes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "g12m1q2",
+      "type": "true-false",
+      "prompt": "Trees are non-linear data structures.",
+      "correct": true
+    },
+    {
+      "id": "g12m1q3",
+      "type": "mcq",
+      "prompt": "REST APIs typically use which protocol?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SSH",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g12m1q4",
+      "type": "drag-drop",
+      "prompt": "Match.",
+      "pairs": [
+        {
+          "left": "GET",
+          "right": "Read"
+        },
+        {
+          "left": "POST",
+          "right": "Create"
+        },
+        {
+          "left": "DELETE",
+          "right": "Remove"
+        }
+      ]
+    }
+  ]
+}

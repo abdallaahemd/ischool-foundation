@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 8,
+  "title": "JavaScript Basics — Module 1",
+  "description": "Practice variables and more.",
+  "difficulty": "Medium",
+  "questions": [
+    {
+      "id": "g8m1q1",
+      "type": "mcq",
+      "prompt": "Which keyword declares a variable in modern JS?",
+      "options": [
+        "var",
+        "let",
+        "def",
+        "int"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g8m1q2",
+      "type": "true-false",
+      "prompt": "A function can return a value.",
+      "correct": true
+    },
+    {
+      "id": "g8m1q3",
+      "type": "mcq",
+      "prompt": "What is [1,2,3].length?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "undefined"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g8m1q4",
+      "type": "drag-drop",
+      "prompt": "Match concept.",
+      "pairs": [
+        {
+          "left": "Array",
+          "right": "List of values"
+        },
+        {
+          "left": "Function",
+          "right": "Reusable code"
+        },
+        {
+          "left": "Loop",
+          "right": "Repeats"
+        }
+      ]
+    }
+  ]
+}

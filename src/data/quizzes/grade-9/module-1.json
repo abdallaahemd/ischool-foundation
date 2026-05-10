@@ -1,0 +1,58 @@
+{
+  "id": "module-1",
+  "grade": 9,
+  "title": "Web Development — Module 1",
+  "description": "Practice DOM and more.",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": "g9m1q1",
+      "type": "mcq",
+      "prompt": "What does the DOM represent?",
+      "options": [
+        "Database",
+        "Document tree",
+        "Server",
+        "Image"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g9m1q2",
+      "type": "true-false",
+      "prompt": "addEventListener attaches event handlers.",
+      "correct": true
+    },
+    {
+      "id": "g9m1q3",
+      "type": "mcq",
+      "prompt": "Which CSS unit scales with viewport width?",
+      "options": [
+        "px",
+        "vw",
+        "em",
+        "pt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g9m1q4",
+      "type": "drag-drop",
+      "prompt": "Match git command.",
+      "pairs": [
+        {
+          "left": "git add",
+          "right": "Stage changes"
+        },
+        {
+          "left": "git commit",
+          "right": "Save snapshot"
+        },
+        {
+          "left": "git push",
+          "right": "Send to remote"
+        }
+      ]
+    }
+  ]
+}

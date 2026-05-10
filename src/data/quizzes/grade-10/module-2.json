@@ -1,0 +1,44 @@
+{
+  "id": "module-2",
+  "grade": 10,
+  "title": "Data & Algorithms — Module 2",
+  "description": "Practice searching and more.",
+  "difficulty": "Hard",
+  "questions": [
+    {
+      "id": "g10m2q1",
+      "type": "mcq",
+      "prompt": "Linear search worst case?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "g10m2q2",
+      "type": "true-false",
+      "prompt": "Merge sort is faster than bubble sort on large data.",
+      "correct": true
+    },
+    {
+      "id": "g10m2q3",
+      "type": "ordering",
+      "prompt": "Order from fastest to slowest.",
+      "items": [
+        "O(n²)",
+        "O(1)",
+        "O(n)",
+        "O(log n)"
+      ],
+      "correctOrder": [
+        1,
+        3,
+        2,
+        0
+      ]
+    }
+  ]
+}

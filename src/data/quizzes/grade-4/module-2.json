@@ -1,0 +1,44 @@
+{
+  "id": "module-2",
+  "grade": 4,
+  "title": "Logical Thinking — Module 2",
+  "description": "Practice patterns and more.",
+  "difficulty": "Easy",
+  "questions": [
+    {
+      "id": "g4m2q1",
+      "type": "mcq",
+      "prompt": "Which symbol means 'and then'?",
+      "options": [
+        "+",
+        "→",
+        "=",
+        "?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g4m2q2",
+      "type": "true-false",
+      "prompt": "Computers always do exactly what you tell them.",
+      "correct": true
+    },
+    {
+      "id": "g4m2q3",
+      "type": "ordering",
+      "prompt": "Order from smallest to largest.",
+      "items": [
+        "100",
+        "1",
+        "10",
+        "1000"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0,
+        3
+      ]
+    }
+  ]
+}

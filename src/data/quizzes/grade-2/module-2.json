@@ -1,0 +1,44 @@
+{
+  "id": "module-2",
+  "grade": 2,
+  "title": "Using Computers — Module 2",
+  "description": "Practice saving work and more.",
+  "difficulty": "Easy",
+  "questions": [
+    {
+      "id": "g2m2q1",
+      "type": "mcq",
+      "prompt": "Which app lets you draw pictures?",
+      "options": [
+        "Calculator",
+        "Paint",
+        "Browser",
+        "Notepad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "g2m2q2",
+      "type": "true-false",
+      "prompt": "The internet is a network of computers.",
+      "correct": true
+    },
+    {
+      "id": "g2m2q3",
+      "type": "ordering",
+      "prompt": "Order steps to save a drawing.",
+      "items": [
+        "Click Save",
+        "Open paint app",
+        "Draw a picture",
+        "Choose a name"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0,
+        3
+      ]
+    }
+  ]
+}
