@@ -73,6 +73,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "iSchool — Learn programming through quizzes" },
       { name: "twitter:description", content: "iSchool helps kids and teens (8–18) test their programming and tech skills through fun, interactive quizzes." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dc903fc8-0173-4c6d-8095-195b6a8e6c01/id-preview-ddbeef43--40caee52-1b5c-43e5-9bb5-18df78bb9c0d.lovable.app-1778528646666.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dc903fc8-0173-4c6d-8095-195b6a8e6c01/id-preview-ddbeef43--40caee52-1b5c-43e5-9bb5-18df78bb9c0d.lovable.app-1778528646666.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
