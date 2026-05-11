@@ -12,7 +12,7 @@ export function getSessionId(): string {
     id = uuid();
     localStorage.setItem(SESSION_KEY, id);
   }
-  return id;
+  return id as string;
 }
 
 export function getStudent(): StoredStudent | null {
